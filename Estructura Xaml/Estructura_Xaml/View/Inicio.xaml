@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Estructura_Xaml.View.Inicio">
+  <Label Text="{Binding MainText}" VerticalOptions="Center" HorizontalOptions="Center" />
+
+<StackLayout>
+  <StackLayout Orientation="Vertical">
+
+    <SearchBar></SearchBar>
+      
+      <Label Text="usuario"></Label>
+      <Entry Text=""></Entry>
+      <Label Text="contraseña"></Label>
+      <Entry Text=""></Entry>
+
+  <BoxView BackgroundColor="Red"></BoxView>
+  </StackLayout>
+  
+<StackLayout Orientation="Horizontal"></StackLayout>
+  <Button Text="aceptar"></Button>
+  <Button Text="nuevo usuario"></Button>
+ 
+
+</StackLayout>
+
+</ContentPage>
+
+<!--Explicar qué es el contentpage y qué hace-->
+
+<!--Explicar los xmlns, qué son y para qué sirven-->
+
+<!--Explicar Label text binding maintext, qué es y para qué sirve-->
+
+<!--Explicar los stacklayout, qué son y cómo se pueden agrupar en una misma vista-->
